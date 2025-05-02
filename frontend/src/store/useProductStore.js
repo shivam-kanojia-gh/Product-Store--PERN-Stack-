@@ -2,7 +2,7 @@ import { create } from "zustand";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://product-store-pern-stack-production.up.railway.app";
 
 export const useProductStore = create((set, get) => ({
   // products state
